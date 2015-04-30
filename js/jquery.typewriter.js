@@ -20,7 +20,7 @@ https://github.com/iuzhakov
         var options = $.extend( defaults, opts || {} );
 
         return this.each( function(){
-            console.time('time');
+            // console.time('time');
             var selector = $( this );
             var typewriter = {};
 
@@ -75,7 +75,7 @@ https://github.com/iuzhakov
                 };
             }();
 
-            console.timeEnd('time');
+            // console.timeEnd('time');
         });
     };
 }(jQuery, window));
